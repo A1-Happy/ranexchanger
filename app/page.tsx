@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { Button } from "@/components/ui/button"
 import ContactForm from './Components/ContactForm';
@@ -33,7 +34,7 @@ const Home: React.FC = () => {
 
         <div className='flex my-20'>
           <div className=' mx-20 flex-1'>
-            <img src="/1.webp" alt="" />
+            <Image src="/1.webp" alt="" />
 
           </div>
 
@@ -57,11 +58,11 @@ const Home: React.FC = () => {
         <div className="flex gap-10 px-10 mb-40 bg-gray-100 pb-10">
           <div>
             <h1 className='text-2xl font-bold  mb-4'>
-              How we're Trusted ?
+              How we&apos;re Trusted ?
             </h1>
             <p className='text-lg  mb-6'>
-              We're online and trusted since February ,2015
-              We're Paytm registered merchant as RanExchanger
+              We&apos;re online and trusted since February, 2015
+              We&apos;re Paytm registered merchant as RanExchanger
               Our official Bank is also in the name of RanExchanger
               AstroPay authorized reseller, you can check with Astropay
               Our site is secured with SSL certificate from Godaddy.
@@ -77,10 +78,10 @@ const Home: React.FC = () => {
             </h1>
             <p className='text-lg  mb-6'>We had done with 10,000+ satisfied clients since 2015
               Instant buy-sell process almost fulfilled within 15 minutes.
-              We work on customer's satisfaction to keep going..
+              We work on customer&apos;s satisfaction to keep going..
               Lowest Fee when compared to competing exchangers
               We providing professional services without bargains
-              We're against fraudsters, money laundering peoples            </p>
+              We&apos;re against fraudsters, money laundering peoples            </p>
             <Link href={"/rates"}>
               <Button className="bg-green-500 hover:bg-green-600">VIEW OUR RATES</Button></Link></div>
 
@@ -106,8 +107,8 @@ const Home: React.FC = () => {
               Google Reviews
             </h1>
             <p className='text-lg  mb-6'>
-              We're online and trusted since February ,2015
-              We're Paytm registered merchant as RanExchanger
+              We&apos;re online and trusted since February ,2015
+              We&apos;re Paytm registered merchant as RanExchanger
               Our official Bank is also in the name of RanExchanger
               AstroPay authorized reseller, you can check with Astropay
               Our site is secured with SSL certificate from Godaddy.
@@ -121,7 +122,7 @@ const Home: React.FC = () => {
         <div className="flex gap-10 px-10 py-10 mb-20 bg-gray-100 w-full">
           <div>
             <h1 className='text-center text-3xl mb-4 text-green-600 mb-10'>
-            TO BUY SELL CRYPTO'S LIKE USDT, BTC, etc.
+            TO BUY SELL CRYPTO&apos;S LIKE USDT, BTC, etc.
             </h1>
             <p className='text-lg  mb-6'>
             Please Note Cryptocurreny rates are always fluctuate in minutes, Kindly contact us in our whatsapp number below to check & buy Instantly. 

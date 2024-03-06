@@ -15,24 +15,24 @@ const AstroPayCard: React.FC = () => {
         </p>
         <p className="mb-4">
           And keep in mind, AstroPay is only a Virtual Voucher like other E-Vouchers or Gift
-          cards. It doesn't work like credit/debit or any bank cards.
+          cards. It doesn&apos;t work like credit/debit or any bank cards.
         </p>
         <p className="mb-4 font-bold">*Instant Steps to buy AstroPay*</p>
         <ol className="list-decimal list-inside mb-4">
           <li>
             First you need to have an account in AstroPay app or website.
-            Note: (Your AstroPay account Kyc/limits doesn't apply or affect you in any matter to
+            Note: (Your AstroPay account Kyc/limits doesn&apos;t apply or affect you in any matter to
             buy through our service, you may buy any higher value as single or multiple number of
             cards as soon as just registered in AstroPay App or website.
           </li>
           <li>Tell us your required INR value in Voucher & share your AstroPay registered mobile number.</li>
           <li>
-            We'll tell you how much it cost you to pay including our charges (0% to 5%),
+            We&apos;ll tell you how much it cost you to pay including our charges (0% to 5%),
             then make payment in any of our banking details which we provide you.
           </li>
           <li>
-            Once you made successful payment, we'll confirm and generate your
-            AstroPay Voucher Instantly on your AstroPay App/Account itself. That's all. Now, your
+            Once you made successful payment, we&apos;ll confirm and generate your
+            AstroPay Voucher Instantly on your AstroPay App/Account itself. That&apos;s all. Now, your
             Voucher is ready to use ..
           </li>
         </ol>

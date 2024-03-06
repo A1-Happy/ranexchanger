@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 const RatesPage: React.FC = () => {
   return (
@@ -26,7 +27,7 @@ const RatesPage: React.FC = () => {
             <div className="grid grid-cols-3 gap-8">
               {/* AstroPay Card */}
               <div>
-                <img src="/1.webp" alt="AstroPay Card" className="mb-4" />
+                <Image src="/1.webp" alt="AstroPay Card" className="mb-4" />
                 <p className="font-bold">AstroPay INR</p>
                 <p className="text-sm">In % basis</p>
                 <p className="font-bold mt-4">YOUR BUY RATES</p>
@@ -43,7 +44,7 @@ const RatesPage: React.FC = () => {
 
               {/* Neteller */}
               <div>
-                <img src="/2.webp" alt="Neteller" className="mb-4" />
+                <Image src="/2.webp" alt="Neteller" className="mb-4" />
                 <p className="font-bold">Neteller INR (₹)</p>
                 <p className="text-sm">In % basis</p>
                 <p className="font-bold mt-4">YOUR BUY RATES</p>
@@ -62,7 +63,7 @@ const RatesPage: React.FC = () => {
 
               {/* Skrill Moneybookers */}
               <div>
-                <img src="/3.webp" alt="Skrill Moneybookers" className="mb-4" />
+                <Image src="/3.webp" alt="Skrill Moneybookers" className="mb-4" />
                 <p className="font-bold">Skrill INR (₹)</p>
                 <p className="text-sm">In % basis</p>
                 <p className="font-bold mt-4">YOUR BUY RATES</p>
@@ -97,7 +98,7 @@ const RatesPage: React.FC = () => {
             <div className="grid grid-cols-2 gap-8">
               {/* Perfect Money USD */}
               <div>
-                <img src="/2.webp" alt="Neteller" className="mb-4" />
+                <Image src="/2.webp" alt="Neteller" className="mb-4" />
                 <p className="font-bold">Perfect Money USD</p>
                 <p className="text-sm">cost per $1</p>
                 <p className="font-bold mt-4">YOUR BUY RATES</p>
@@ -116,7 +117,7 @@ const RatesPage: React.FC = () => {
 
               {/* Payeer USD */}
               <div className='mb-10'>
-                <img src="/2.webp" alt="Neteller" className="mb-4" />
+                <Image src="/2.webp" alt="Neteller" className="mb-4" />
                 <p className="font-bold">Payeer USD</p>
                 <p className="text-sm">cost per $1</p>
                 <p className="font-bold mt-4">YOUR BUY RATES</p>
