@@ -24,7 +24,7 @@ export default function faqs() {
                             <AccordionContent>
                                 RanExchanger.co.in is a digital & Crypto currency exchanger owned by RanExchanger Services is an online service provider that helps everyone to find exchangers or can deposit and withdraw their funds with the best rates and fastest process.
                             </AccordionContent>
-                        </AccordionItem>&apos;
+                        </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger>Is RanExchanger legitimate?</AccordionTrigger>
                             <AccordionContent>
